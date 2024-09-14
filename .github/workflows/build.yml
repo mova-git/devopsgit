@@ -6,6 +6,6 @@ on:
 jobs:
   build:
     runs-on: rocket
-    steps: 
+    steps:
       - name: checkout
         uses: actions/checkout@v2
